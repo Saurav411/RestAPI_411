@@ -86,8 +86,4 @@ public static String CoursePrice()
 				"\r\n" + 
 				"";
 	}
-
-
-	
-	
 }
