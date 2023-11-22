@@ -3,8 +3,8 @@ package RestAPI;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import files.payload;
 import io.restassured.path.json.JsonPath;
+import resources.dynamic_payloads.payload;
 
 public class sumValidation {
 	@Test

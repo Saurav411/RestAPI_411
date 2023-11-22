@@ -4,12 +4,12 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import files.ReUsableMethods;
-import files.payload;
 import io.restassured.RestAssured;
 import static io.restassured.RestAssured.given;
 import io.restassured.path.json.JsonPath;
+import resources.dynamic_payloads.payload;
 
-public class DynamicJson_Add_Delete_Books {
+public class DynamicJson_dataProvider {
 	@Test(dataProvider = "BooksData")
 
 	public void addBook(String isbn, String aisle) {

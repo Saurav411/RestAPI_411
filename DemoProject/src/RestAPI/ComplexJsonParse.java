@@ -2,8 +2,8 @@ package RestAPI;
 
 import org.testng.Assert;
 
-import files.payload;
 import io.restassured.path.json.JsonPath;
+import resources.dynamic_payloads.payload;
 
 public class ComplexJsonParse {
 
