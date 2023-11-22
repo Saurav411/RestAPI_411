@@ -13,7 +13,7 @@ import files.ReUsableMethods;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 
-public class DynamicJson_attachmentAsPayload {
+public class staticJson_attachmentAsPayload {
 	@Test()
 //content of the file should be converted to Byte code and then to be converted to String which we can use as String in body.
 	public void AddPlace_AttachmentAsPayload() throws IOException {
