@@ -3,11 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="RestAPI.Dynamic_Json">
         <methods>
           <include name="addBook"/>
         </methods>
       </class> <!-- RestAPI.Dynamic_Json -->
+=======
+      <class name="RestAPI.DynamicJson_attachmentAsPayload">
+        <methods>
+          <include name="AddPlace_AttachmentAsPayload"/>
+        </methods>
+      </class> <!-- RestAPI.DynamicJson_attachmentAsPayload -->
+>>>>>>> 0816b02899e357a97878f7906220397f99f2d801
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

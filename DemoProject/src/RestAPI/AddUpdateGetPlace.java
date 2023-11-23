@@ -5,9 +5,9 @@ import static org.hamcrest.Matchers.equalTo;
 
 import org.testng.Assert;
 
-import files.payload;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
+import resources.dynamic_payloads.payload;
 
 public class AddUpdateGetPlace {
 
