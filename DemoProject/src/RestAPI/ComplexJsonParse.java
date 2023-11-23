@@ -51,7 +51,7 @@ public class ComplexJsonParse {
 			int CourseCopies = js.getInt("courses["+i+"].copies"); 
 			SumOfAllCoursePrices = SumOfAllCoursePrices + CoursePrice*CourseCopies;
 		}
-		 System.out.println("\n\nSum Of All Course Prices in this API Response is: "+SumOfAllCoursePrices);
+		System.out.println("\n\nSum Of All Course Prices in this API Response is: "+SumOfAllCoursePrices);
 		Assert.assertEquals(SumOfAllCoursePrices,PurchaseAmount );
 		System.out.println("\n\nSum Of All Course Prices in this API Response is same as the Total amount of the Course Purchase ");
 	}

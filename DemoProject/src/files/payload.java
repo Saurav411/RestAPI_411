@@ -36,7 +36,6 @@ public class payload {
 	}
 	
 public static String CoursePrice()
-	
 	{
 		return "{\r\n" + 
 				"\r\n" + 
@@ -86,4 +85,19 @@ public static String CoursePrice()
 				"\r\n" + 
 				"";
 	}
+
+public static String Addbook(String isdb, String aisle)
+{
+	String payload = "{\r\n"
+	+ "\r\n"
+	+ "\"name\":\"Learn Appium Automation with Java\",\r\n"
+	+ "\"isbn\":\"bcd\",\r\n"
+	+ "\"aisle\":\"2nyjbg27\",\r\n"
+	+ "\"author\":\"John foe\"\r\n"
+	+ "}\r\n"
+	+ "";
+	
+	return payload;
+}
+
 }
